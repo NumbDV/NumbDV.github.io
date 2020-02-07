@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/1239f47ca3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Special+Elite&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./icons/favicon.ico" type='image/x-icon'>
+    <title>Uber Taxi</title>
+</head>
+<body>
+    <section class="top">
+        <div class="container">
+            <header class="header">
+                <a href="index.html">
+                    <div class="header__logo">
+                        <span>Denvor</span>
+                        <img src="icons/wing-white.png" alt="wing">
+                    </div>
+                </a>
+                <nav class="header__nav">
+                    <a class="header__nav_link" href="index.html#portfolio">Portfolio</a>
+                    <a class="header__nav_link" href="CV.html">My CV</a>
+                    <a class="header__nav_link" href="index.html#contacts">Contacts</a>
+                    <button data-modal='hiring' class="btn">Hire me</button data-modal='hiring'>
+                </nav>
+            </header>
+        </div>
+    </section>
+    <section class="website">
+        <div class="container">
+            <h2 class="website__title">Used technologies and features:</h2>
+            <ul>
+                <li>- HTML5, CSS3</li>
+                <li>- Javascript (Native, jQuery)</li>
+                <li>- Bootstrap 4</li>
+                <li>- Git, Gulp, SASS</li>
+                <li><span>Features:</span>Responsive, double dropdown, animations, 
+                    burger menu etc.
+                </li>
+            </ul>
+            <div class="website__screen">
+                <img src="./img/Uber.jpg" alt="" width="1024px">
+            </div>
+            <button onclick="location.href='index.html'" type="button" class="btn btn_black">Go back</button>
+        </div>
+    </section>
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <h3 class="footer__title">Web development</h3>
+            <address>
+                Contact me: <br>
+                +38(050)-71-006-01 <br>
+                d3n.vor@gmail.com
+            </address>
+            <div class="social_links">
+                <a href="https://www.facebook.com/d3n.vor" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/in/den-vorobiov-25a874188/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/NumbDV" target="_blank"><i class="fab fa-github-square"></i></a>
+                <a href="https://www.instagram.com/den_vorobiov/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Contact me!</div>
+            <div class="modal__descr">Fill the form below and i'll contact you!</div>
+            <form class="feed-form" action="#">
+                <input name="name" placeholder="Type your name" type="text">
+                <input name="phone" placeholder="Type phone number">
+                <input name="email" placeholder="Type your email" type="email">
+                <textarea placeholder='Your text goes here...' style="resize: none" maxlength='450' name="text" id="" cols="30" rows="10"></textarea>
+
+                <button class="btn btn_submit">Done!</button>
+            </form>
+        </div>
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Your message has been successfully delivered.</div>
+        </div>
+    </div>
+    <a href="#up" class="pageup">
+        <img src="icons/chevron-circle-up-solid.svg" alt="up">
+    </a>
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src='./js/slick.min.js'></script>
+    <script src='./js/script.js'></script>
+</body>
+</html>
